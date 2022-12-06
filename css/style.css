@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .grass, .sky, .road{
+    position: relative;
+  }
+  
+  .sky{
+    height: 40%;
+    background: lightcyan;
+  }
+  
+  .water{
+    height: 30%;
+    background: skyblue;
+  }
+  
+  .sand{
+    height: 30%;
+    background: sandybrown;
+    box-sizing: border-box;
+    border-top: 10px solid burlywood;
+    border-bottom: 10px solid burlywood;
+    width: 100%;
+  }
+  
+  
+  .boat{
+    position: absolute;
+    top: 390px;
+    left: 0px;
+  }
+  
+  .umbrella3{
+    position: absolute;
+    top: 600px;
+    left: 1500px;
+  } 
+  
+  .umbrella{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+  } 
