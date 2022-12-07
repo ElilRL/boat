@@ -10,7 +10,7 @@ html, body{
   }
   
   .sky{
-    height: 40%;
+    height: 30%;
     background: lightcyan;
   }
   
@@ -20,7 +20,7 @@ html, body{
   }
   
   .sand{
-    height: 30%;
+    height: 40%;
     background: sandybrown;
     box-sizing: border-box;
     border-top: 10px solid burlywood;
@@ -31,8 +31,10 @@ html, body{
   
   .boat{
     position: absolute;
-    top: 390px;
+    top: 350px;
     left: 0px;
+    animation-name: driver;
+    animation-duration: 3s;
   }
   
   .umbrella3{
@@ -46,3 +48,75 @@ html, body{
     top: 600px;
     left: 0px;
   } 
+
+  .tree{
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+  } 
+
+  .tree1{
+    position: absolute;
+    top: 500px;
+    left: 300px;
+  } 
+
+  .castle{
+    position: absolute;
+    top: 600px;
+    left: 500px;
+  } 
+  .boat2{
+    position: absolute;
+    top: 250px;
+    left: 1400px;
+    animation-name: drive;
+    animation-duration: 3s;
+  }
+  .airplane{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    animation-name: flying;
+    animation-duration: 30s;
+  }
+  .kid{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+  } 
+  
+  .kid2{
+    position: absolute;
+    top: 500px;
+    left: 800px;
+  } 
+  .volly{
+    position: absolute;
+    top: 500px;
+    left: 690px;
+    animation-name: ball;
+    animation-duration: 2s;
+  }
+  .sun{
+    position: absolute;
+    top: -20px;
+    left: 1400px;
+  }
+
+  @keyframes driver{
+    from{ transform: translatex(0);}
+    to{ transform: translateX(500px);}
+  }
+  @keyframes drive{
+    from{ transform: translatex(0);}
+    to{ transform: translateX(-500px);}
+  }
+  @keyframes flying{
+    from{ transform: translatex(0);}
+    to{ transform: translateX(10000px);}
+  }
+  @keyframes ball{
+    from{ transform: translateX(0);}
+    to{ transform: translateX(70px);}
+  }
