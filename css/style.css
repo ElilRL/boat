@@ -34,7 +34,7 @@ html, body{
     top: 350px;
     left: 0px;
     animation-name: driver;
-    animation-duration: 3s;
+    animation-duration: 30s;
   }
   
   .umbrella3{
@@ -68,10 +68,10 @@ html, body{
   } 
   .boat2{
     position: absolute;
-    top: 250px;
+    top: 150px;
     left: 1400px;
     animation-name: drive;
-    animation-duration: 3s;
+    animation-duration: 30s;
   }
   .airplane{
     position: absolute;
@@ -103,6 +103,13 @@ html, body{
     top: -20px;
     left: 1400px;
   }
+  .cloud{
+    position: absolute;
+    top: -10px;
+    left: 300px;
+    animation-name: moving;
+    animation-duration: 30s;
+  }
 
   @keyframes driver{
     from{ transform: translatex(0);}
@@ -119,4 +126,8 @@ html, body{
   @keyframes ball{
     from{ transform: translateX(0);}
     to{ transform: translateX(70px);}
+  }
+  @keyframes moving{
+    from{ transform: translateX(0);}
+    to{ transform: translateX(700px);}
   }
